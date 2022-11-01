@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background-color: #f2f2f2;
+}
+
+.hero{
+    background: #f2f2f2;  /* LINEA PARA COLOR DE FONDO */
+    min-height: 100vh;   
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    color: rgba(0, 0,0,0.7);
+    text-align: center;
+    text-transform: uppercase;/*   PARA PASAR TODO A MAYUSCULAS */
+    font-size: 200px;
+    font-weight: bold;
+
+    background-image:url('images/sky.jpg');
+    background-size: 1000px;
+    background-position-y: bottom -50px;
+    background-position-x: center;
+    background-clip:text;   /* LINEA PARA PODER MONATR IMAGEN COMO MASCARA */
+    -webkit-background-clip: text;
+}
+
+.texto:hover{    
+    color: rgba(0, 0,0,0.5);
+}
