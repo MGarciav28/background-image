@@ -29,7 +29,7 @@ body{
     background-size: 1000px;
     background-position-y: bottom -50px;
     background-position-x: center;
-    background-clip:text;   /* LINEA PARA PODER MONATR IMAGEN COMO MASCARA */
+    background-clip:text;   /* LINEA PARA PODER MONTAR IMAGEN COMO MASCARA */
     -webkit-background-clip: text;
 }
 
