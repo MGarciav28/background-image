@@ -36,3 +36,16 @@ body{
 .texto:hover{    
     color: rgba(0, 0,0,0.5);
 }
+
+@media (max-width:900px) {
+    .texto{
+        font-size: 90px;
+        background-size: 1000px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+}
+}
