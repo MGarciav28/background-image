@@ -39,13 +39,15 @@ body{
 
 @media (max-width:900px) {
     .texto{
-        font-size: 90px;
-        background-size: 1000px;
+        font-size: 20vw;
+        background-size: 100vw;
         overflow-wrap: break-word;
         word-wrap: break-word;
         hyphens: auto;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         -ms-hyphens: auto;
-}
+    }
+
+
 }
